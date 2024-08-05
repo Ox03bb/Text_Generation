@@ -1,3 +1,5 @@
+![Tensorflow](https://img.shields.io/badge/-Tensorflow-ff6f00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-d00000?style=flat&logo=keras&logoColor=white) ![sklearn](https://img.shields.io/badge/-sklearn-F89C3F?style=flat&logo=scikit%20learn&logoColor=white&labelColor=3294C7)
+
 # Text Generation Projects
 
 Welcome to the Text_Generation repository! This repository contains four interrelated projects: **Text_Generation.ipynb**, **Text_Reformulation.ipynb**, **Text_Reduction.ipynb**, and **Translate.ipynb**. Each project explores different aspects of text manipulation and generation, highlighting how small changes in methodology can significantly impact the results.
@@ -6,6 +8,9 @@ Welcome to the Text_Generation repository! This repository contains four interre
 
 ### 1. Text_Generation.ipynb
 This project focuses on generating text using N-Gram models within an LSTM (Long Short-Term Memory) neural network architecture. The LSTM model predicts the next word in a sequence based on the previous \( n-1 \) words, capturing local context and generating coherent, contextually appropriate text.
+
+> [!NOTE]  
+> Unfortunately, I was unable to upload the models to the repository because I haven't been able to download them from Kaggle due to a technical issue.
 
 ### 2. Text_Reformulation.ipynb
 Text_Reformulation is closely related to Text_Generation, using the same LSTM neural network architecture and dataset. The primary difference lies in the use of a Continuous Bag of Words (CBOW) model instead of an N-Gram model. While N-Gram models focus on consecutive word sequences, CBOW models predict a target word based on its context words, capturing broader context. Despite the almost identical code, this small adjustment significantly impacts the reformulated text by providing a different contextual understanding.
@@ -42,6 +47,16 @@ git clone https://github.com/yourusername/Text_Generation.git
 ### 2. Install the required dependencies: 
 ```bash
 pip install -r requirements.txt
+```
+
+### 3. Install Jupyter Notebook:
+```bash
+pip install notebook
+```
+
+### 4. Dataset: 
+```bash
+https://www.kaggle.com/datasets/thedrcat/daigt-proper-train-dataset
 ```
 
 ## Contributing
